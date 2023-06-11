@@ -4,6 +4,7 @@ import "./styles/Global.css"
 import Intro from './components/Intro'
 import About from './components/About'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Intro></Intro>
         <About></About>
         <Experience></Experience>
+        <Projects></Projects>
 
       </div>
     </div>
