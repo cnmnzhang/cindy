@@ -19,11 +19,8 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Senior Programmer Analyst</b> at
-        <a href="https://www.hopkinsmedicine.org/the_johns_hopkins_hospital/"> Johns Hopkins</a>, working in the Precision Medicine Data Management Team 
-        to support the Johns Hopkins inHealth Precision Medicine initiative. I leverage Electronic Medical Record 
-        and other data assets for clinical research and for the development of clinical and patient facing applications. My primary responsibilities include 
-        data extraction and transformation to support research and data visualization projects
+        I am  a <b>Senior Programmer Analyst</b> at Johns Hopkins, working on the Precision Medicine Data Management Team. 
+        I leverage Electronic Medical Record data for clinical research by supporting data extraction and transformation
       </p>
     );
     const two = (
