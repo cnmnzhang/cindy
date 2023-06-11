@@ -5,8 +5,8 @@ import "../styles/Projects.css";
 // import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 import FadeInSection from "./FadeInSection";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import Carousel from "react-bootstrap/Carousel";
-import ExternalLinks from "./ExternalLinks";
+// import Carousel from "react-bootstrap/Carousel";
+// import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
   constructor() {
@@ -24,7 +24,7 @@ class Projects extends React.Component {
   }
   render() {
     const projects = {
-        "Data-driven Modeling of Pulmonary Hypertension": {
+        "Data-Driven Modeling of Pulmonary Hypertension": {
           title: "portfolio.js",
           desc:
             "Towards understanding the condition that is Pulmonary Hypertension. We applied unsupervised clustering to devise a new paradigm for pulmonary hypertension risk stratification, and we trained classifiers to predict pressure-volume states.",
