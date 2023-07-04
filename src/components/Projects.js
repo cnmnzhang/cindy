@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/Projects.css";
-// import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
+import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 // import GitHubIcon from "@material-ui/icons/GitHub";
 // import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 import FadeInSection from "./FadeInSection";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "react-bootstrap/Carousel";
-// import ExternalLinks from "./ExternalLinks";
+import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
   constructor() {
@@ -71,10 +71,10 @@ class Projects extends React.Component {
                       {projects[key]["techStack"]}
                     </p>
                   </p>
-                  {/* <ExternalLinks
-                    githubLink={spotlightProjects[key]["link"]}
-                    openLink={spotlightProjects[key]["open"]}
-                  ></ExternalLinks> */}
+                  <ExternalLinks
+                    githubLink={projects[key]["link"]}
+                    openLink={projects[key]["open"]}
+                  ></ExternalLinks>
                 </Carousel.Caption>
               </div>
             </Carousel.Item>
@@ -97,14 +97,14 @@ class Projects extends React.Component {
 
                   <div className="card-header">
                     <div className="folder-icon">
-                      {/* <FolderOpenRoundedIcon
+                      <FolderOpenRoundedIcon
                         style={{ fontSize: 35 }}
-                      ></FolderOpenRoundedIcon> */}
+                      ></FolderOpenRoundedIcon>
                     </div>
-                    {/* <ExternalLinks
+                    <ExternalLinks
                       githubLink={projects[key]["link"]}
                       openLink={projects[key]["open"]}
-                    ></ExternalLinks> */}
+                    ></ExternalLinks>
                   </div>
 
                   <div className="card-title">{key}</div>
