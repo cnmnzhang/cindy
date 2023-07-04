@@ -28,7 +28,8 @@ html {
   background-color: var(--navy);
   display: flex;
   flex-direction: row;
-  padding: 136px 76px;
+  padding-left: 136px;
+  padding-right: 136px;
 }
 .App-logo {
   height: 40vmin;
