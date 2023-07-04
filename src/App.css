@@ -28,8 +28,7 @@ html {
   background-color: var(--navy);
   display: flex;
   flex-direction: row;
-  padding-left: 136px;
-  padding-right: 136px;
+  justify-content: center;
 }
 .App-logo {
   height: 40vmin;
@@ -37,11 +36,10 @@ html {
 }
 
 #content {
-  padding: 80px 200px;
   width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
-  padding-left: 15%;
+  padding: 5% 5%;
 }
 .rs-steps-horizontal .rs-steps-item-content {
   text-align: left;
@@ -84,6 +82,13 @@ html {
   font-family: "NTR", sans-serif;
   color: var(--lightest-slate);
   font-size: 46px;
+  font-weight: bold;
+}
+
+.section-body {
+  font-family: "NTR", sans-serif;
+  color: var(--lightest-slate);
+  font-size: var(--sm-font-size);
   font-weight: bold;
 }
 
