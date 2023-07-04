@@ -23,7 +23,7 @@
   .about-description li {
     position: relative;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: var(--sm-font-size);
     color: var(--slate);
   }
   
@@ -48,8 +48,7 @@
     margin: 0;
   }
   
-  .about-description a,
-  .about-description b {
+  .about-description {
     font-size: 21px;
     font-weight: bold;
   }

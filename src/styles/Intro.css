@@ -10,7 +10,7 @@
   .Typist {
     color: var(--lightest-slate);
     text-align: center;
-    font-size: 76px;
+    font-size: var(--xl-font-size);
     margin-top: -30px;
   }
   .Typist .Cursor--blinking {
@@ -20,13 +20,13 @@
   
   .intro-title {
     font-family: "NTR", sans-serif;
-    font-size: 86px;
+    font-size: var(--large-font-size);
   }
   .intro-name {
     font-family: "NTR", sans-serif;
     color: var(--green-bright);
     font-weight: bold;
-    font-size: 86px;
+    font-size: var(--large-font-size);
   }
   
   .intro-subtitle {
@@ -34,7 +34,7 @@
     font-family: "NTR", sans-serif;
     color: var(--slate);
     font-weight: 300;
-    font-size: 48px;
+    font-size: var(--large-font-size);
   }
   
   .intro-desc {
@@ -43,7 +43,7 @@
     font-size: 22px;
     max-width: 40%;
     text-align: justify;
-    padding-bottom: 50px;
+    padding-bottom: 5%;
   }
   
   .intro-contact {
@@ -61,7 +61,7 @@
   }
   
   b {
-    font-size: 17px;
+    font-size: var(--sm-font-size);
   }
   
   @media only screen and (max-width: 600px) {
@@ -84,24 +84,24 @@
     }
   
     .Typist {
-      font-size: 36px;
+      font-size: var(--xl-font-size);
     }
   
     .intro-subtitle {
       margin: 0;
-      font-size: 28px;
+      font-size: var(--medium-font-size);
       text-align: center;
     }
   
     .intro-desc {
-      font-size: 18px;
+      font-size: var(--sm-font-size);
       text-align: center;
       max-width: unset;
       padding-bottom: 40px;
     }
   
     .intro-contact {
-      font-size: 16px;
+      font-size: var(--sm-font-size);
       align-self: center;
       margin-left: 30%;
     }

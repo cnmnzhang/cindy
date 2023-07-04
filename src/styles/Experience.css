@@ -6,21 +6,21 @@
   
   .joblist-job-title {
     font-family: "NTR", sans-serif;
-    font-size: 28px;
+    font-size: var(--medium-font-size);
     font-weight: bold;
     color: var(--lightest-slate);
   }
   
   .joblist-job-company {
     font-family: "NTR", sans-serif;
-    font-size: 28px;
+    font-size: var(--medium-font-size);
     color: var(--green-bright);
     font-weight: bold;
   }
   
   .joblist-duration {
     font-family: "NTR", sans-serif;
-    font-size: 18px;
+    font-size: var(--medium-font-size);
     color: var(--slate);
   }
   
@@ -30,7 +30,7 @@
   }
   
   .MuiTab-wrapper {
-    font-size: 16px;
+    font-size: var(--sm-font-size);
     text-align: left;
     align-items: flex-start !important;
     font-family: "NTR", sans-serif;
@@ -73,7 +73,7 @@
     position: relative;
     padding-left: 30px;
     padding-bottom: 16px;
-    font-size: 18px;
+    font-size: var(--sm-font-size);
     color: var(--slate);
   }
   
@@ -81,12 +81,11 @@
     padding-top: 24px;
     max-width: 650px;
     font-family: "NTR", sans-serif;
-    font-size: 20px;
+    font-size: var(--sm-font-size);
   }
   
-  .job-description a,
-  .job-description b {
-    font-size: 19px;
+  .job-description {
+    font-size: var(--sm-font-size);
     font-weight: bold;
   }
   
