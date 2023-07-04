@@ -28,7 +28,7 @@ html {
   background-color: var(--navy);
   display: flex;
   flex-direction: row;
-  /* padding: 36px 76px; */
+  padding: 136px 76px;
 }
 .App-logo {
   height: 40vmin;
@@ -40,6 +40,7 @@ html {
   width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
+  padding-left: 15%;
 }
 .rs-steps-horizontal .rs-steps-item-content {
   text-align: left;
