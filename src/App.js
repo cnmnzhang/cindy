@@ -6,9 +6,10 @@ import About from './components/About'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 
+
 const App = () => {
   return (
-    <div className='App'>App
+    <div className='App'>
       <div id="content">
         <Intro></Intro>
         <About></About>

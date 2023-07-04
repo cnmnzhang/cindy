@@ -5,7 +5,7 @@ import "../styles/Projects.css";
 // import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 import FadeInSection from "./FadeInSection";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import Carousel from "react-bootstrap/Carousel";
+import Carousel from "react-bootstrap/Carousel";
 // import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
@@ -23,6 +23,7 @@ class Projects extends React.Component {
     });
   }
   render() {
+    <link rel="stylesheet" href="carousel.css"/>
     const projects = {
         "Data-Driven Modeling of Pulmonary Hypertension": {
           title: "portfolio.js",
@@ -53,37 +54,47 @@ class Projects extends React.Component {
         <div className="section-header ">
           <span className="section-title">/ projects</span>
         </div>
-        {/* <Carousel>
-          {Object.keys(spotlightProjects).map((key, i) => (
+        <Carousel>
+          {Object.keys(projects).map((key, i) => (
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={spotlightProjects[key]["image"]}
+                src={projects[key]["image"]}
                 alt={key}
               />
               <div className="caption-bg">
                 <Carousel.Caption>
-                  <h3>{spotlightProjects[key]["title"]}</h3>
+                  <h3>{projects[key]["title"]}</h3>
                   <p>
-                    {spotlightProjects[key]["desc"]}
+                    {projects[key]["desc"]}
                     <p className="techStack">
-                      {spotlightProjects[key]["techStack"]}
+                      {projects[key]["techStack"]}
                     </p>
                   </p>
-                  <ExternalLinks
+                  {/* <ExternalLinks
                     githubLink={spotlightProjects[key]["link"]}
                     openLink={spotlightProjects[key]["open"]}
-                  ></ExternalLinks>
+                  ></ExternalLinks> */}
                 </Carousel.Caption>
               </div>
             </Carousel.Item>
           ))}
-        </Carousel> */}
+        </Carousel>
+        
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (
               <FadeInSection delay={`${i + 1}00ms`}>
-                <li className="projects-card">
+                {/* {const root = document.querySelector(':root');
+                // set css variable
+                root.style.setProperty('--my-color', 'blue')} */}
+
+                <li className="projects-card"
+                >
+                  <script>
+                    element.style.setProperty('--image-url', { projects[key]["image"] });
+                    </script>
+
                   <div className="card-header">
                     <div className="folder-icon">
                       {/* <FolderOpenRoundedIcon
@@ -104,7 +115,10 @@ class Projects extends React.Component {
             ))}
           </ul>
         </div>
+        
       </div>
+
+      
     );
   }
 }
