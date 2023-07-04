@@ -2,7 +2,7 @@
   font-family: "NTR";
   font-weight: 200;
   font-display: fallback;
-  /* src: url("/fonts/NTR-Regular.ttf") format("truetype"); */
+  src: url("./../public/fonts/NTR-Regular.ttf") format("truetype");
 }
 
 html {
@@ -36,7 +36,7 @@ html {
 }
 
 #content {
-  /* padding: 80px 200px; */
+  padding: 80px 200px;
   width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;

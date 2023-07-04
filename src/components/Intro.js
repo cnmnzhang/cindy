@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/Intro.css";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
-// import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
+import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import FadeInSection from "./FadeInSection";
 
 class Intro extends React.Component {
@@ -21,6 +21,21 @@ class Intro extends React.Component {
       activeKey: eventKey
     });
   }
+
+  // scrollToTarget(event) {
+  //   event.preventDefault();
+  //   const targetElement = document.getElementById('about');
+
+  //   if (targetElement) {
+  //     window.scrollTo({
+  //       behavior: 'smooth',
+  //       top: targetElement.offsetTop,
+  //     });
+  //   }
+  // }
+
+
+
   render() {
     return (
       <div id="intro">
@@ -42,10 +57,17 @@ class Intro extends React.Component {
             href="mailto:czhan117@jhu.edu"
             className="intro-contact"
           >
-            {/* <EmailRoundedIcon></EmailRoundedIcon> */}
+            <EmailRoundedIcon></EmailRoundedIcon>
             {"Say hi!"}
           </a>
+          <a href="#about">
+            <div className="down-arrow"></div>
+          </a>
+          {/* <section id="section05" class="demo">
+  <a href="#section06"><span></span>Scroll</a>
+</section> */}
         </FadeInSection>
+
       </div>
     );
   }
