@@ -70,7 +70,7 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
     backgroundColor: "theme.palette.background.paper",
     display: "flex",
-    height: 300
+    height: 400
   },
   tabs: {
     borderRight: `1px solid ${theme.palette.divider}`
@@ -86,10 +86,9 @@ const JobList = () => {
       jobTitle: "Undergraduate Research Assistant @",
       duration: "JAN 2020 - JUN 2022",
       desc: [
-        "Created a multilevel classification model to predict patient portal utilization from patient MyChart data using Python and scikit-learn",
-        "Scripted an automated Python pipeline to crowdsource and analyze Qualtrics survey responses for a COVID-19 study hosted on Amazon Mechanical Turk",
+        "Created a multilevel classification model to predict patient portal utilization from patient MyChart data",
+        "Automated a Python pipeline to crowdsource and analyze Qualtrics survey responses for a COVID-19 study hosted on Amazon Mechanical Turk",
         "Scripted electronic health record format converter for HL7 and Eventflow formats",
-        "Developed a prototype Android app using JavaScript for pregnant women’s health information seeking"
       ]
     },
     "Johnson & Johnson": {
@@ -98,7 +97,7 @@ const JobList = () => {
       desc: [
         "Executed C++ tests in Linux to characterize a robotic surgery system and gather requirements values",
         "Refactored JAMA REST API methods and implemented an automated error logging strategy in Python",
-        "Wrote and documented scripts to link and populate Airtable databases and replace manual processes"
+        "Wrote and documented scripts to populate Airtable databases and replaced manual processes"
       ]
     },
     "JHU Applied Physics Laboratory": {

@@ -22,17 +22,17 @@ class Intro extends React.Component {
     });
   }
 
-  // scrollToTarget(event) {
-  //   event.preventDefault();
-  //   const targetElement = document.getElementById('about');
+  scrollToTarget(event) {
+    event.preventDefault();
+    const targetElement = document.getElementById('about');
 
-  //   if (targetElement) {
-  //     window.scrollTo({
-  //       behavior: 'smooth',
-  //       top: targetElement.offsetTop,
-  //     });
-  //   }
-  // }
+    if (targetElement) {
+      window.scrollTo({
+        behavior: 'smooth',
+        top: targetElement.offsetTop,
+      });
+    }
+  }
 
 
 
@@ -61,7 +61,7 @@ class Intro extends React.Component {
             {"Say hi!"}
           </a>
           <a href="#about">
-            <div className="down-arrow"></div>
+            {/* <div className="down-arrow"></div> */}
           </a>
           {/* <section id="section05" class="demo">
   <a href="#section06"><span></span>Scroll</a>
