@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cindy/static/css/main.115df45b.css",
+    "main.js": "/cindy/static/js/main.d9cf6c36.js",
+    "static/media/NTR-Regular.ttf": "/cindy/static/media/NTR-Regular.325a44bd3c015f909958.ttf",
+    "index.html": "/cindy/index.html",
+    "main.115df45b.css.map": "/cindy/static/css/main.115df45b.css.map",
+    "main.d9cf6c36.js.map": "/cindy/static/js/main.d9cf6c36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.115df45b.css",
+    "static/js/main.d9cf6c36.js"
+  ]
+}
