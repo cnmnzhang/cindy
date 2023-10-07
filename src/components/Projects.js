@@ -4,8 +4,8 @@ import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 // import GitHubIcon from "@material-ui/icons/GitHub";
 // import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 import FadeInSection from "./FadeInSection";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import Carousel from "react-bootstrap/Carousel";
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import Carousel from "react-bootstrap/Carousel";
 import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
@@ -54,7 +54,7 @@ class Projects extends React.Component {
         <div className="section-header ">
           <span className="section-title">/ projects</span>
         </div>
-        <Carousel>
+        {/* <Carousel>
           {Object.keys(projects).map((key, i) => (
             <Carousel.Item>
               <img
@@ -79,7 +79,7 @@ class Projects extends React.Component {
               </div>
             </Carousel.Item>
           ))}
-        </Carousel>
+        </Carousel> */}
         
         <div className="project-container">
           <ul className="projects-grid">
