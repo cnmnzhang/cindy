@@ -22,7 +22,7 @@ class ExternalLinks extends React.Component {
         <a className="github-icon" href={this.props.githubLink}>
           <GitHubIcon
             style={{
-              fontSize: 20,
+              fontSize: 25,
               color: "var(--lightest-slate)"
             }}
           ></GitHubIcon>
