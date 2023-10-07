@@ -22,7 +22,7 @@ class Footer extends React.Component {
         <div id="footer">
           <div className="ending-footer">
             <div>Built and designed by Cindy Zhang. </div>
-            <div>Credits to <a href="https://brittanychiang.com/" target="_blank">Brittang Chiang</a></div>
+            <div>Credits to <a href="https://brittanychiang.com/" target="_blank" rel="noreferrer">Brittang Chiang</a></div>
           </div>
         </div>
       </FadeInSection>

@@ -29,16 +29,6 @@ class About extends React.Component {
         science, technology, and art. 
       </p>
     );
-    const three = (
-      <p>
-        <b>Want to chat?</b> Shoot me a message at{" "}
-        <a href="mailto:czhan117@jhu.edu">
-        zhan117@jhu.edu
-        </a>{" "}
-        and let's talk.
-      </p>
-    );
-    const desc_items = [one, two];
 
     const tech_stack = [
       "Javascript ES6+",
@@ -49,7 +39,7 @@ class About extends React.Component {
       "HTML & CSS"
     ];
 
-    const tech_items = tech_stack.map(stack => <li>{stack}</li>);
+    // const tech_items = tech_stack.map(stack => <li>{stack}</li>);
 
     return (
       <div id="about">
@@ -73,7 +63,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img src={"/assets/cindy.jpg"} />
+              <img src={"/assets/cindy.jpg"} alt="cindy"/>
             </div>
           </div>
         </FadeInSection>
