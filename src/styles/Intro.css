@@ -19,11 +19,11 @@
   }
   
   .intro-title {
-    font-family: "NTR", sans-serif;
+    font-family: Georgia, serif;
     font-size: var(--large-font-size);
   }
   .intro-name {
-    font-family: "NTR", sans-serif;
+    font-family: Georgia, serif;
     color: var(--green-bright);
     font-weight: bold;
     font-size: var(--large-font-size);
@@ -31,7 +31,7 @@
   
   .intro-subtitle {
     margin-top: 36px;
-    font-family: "NTR", sans-serif;
+    font-family: Georgia, serif;
     color: var(--slate);
     font-weight: 300;
     font-size: var(--large-font-size);
@@ -39,7 +39,7 @@
   
   .intro-desc {
     color: var(--slate);
-    font-family: "NTR", sans-serif;
+    font-family: Georgia, serif;
     font-size: 22px;
     max-width: 40%;
     text-align: justify;
@@ -49,7 +49,7 @@
   .intro-contact {
     font-size: 22px;
     font-weight: bolder;
-    font-family: "NTR", sans-serif;
+    font-family: Georgia, serif;
     padding: 10px 30px;
     cursor: pointer;
     border: 1px solid var(--green-bright);
