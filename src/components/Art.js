@@ -5,12 +5,19 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Art = () => {
 
-    const importAll = (r) => {
-        return r.keys().map(r);
-      };
-    
-    const drawings = importAll(require.context('./../../public/assets/art', false, /\.(png|jpe?g|JPG)$/));
-    
+    // const importAll = (r) => {
+    //     return r.keys().map(r);
+    //   };
+    // const drawings = importAll(require.context('./../../public/assets/art', false, /\.(png|jpe?g|JPG)$/));
+
+    const drawings = ['./../../public/assets/art/cherries.JPG',
+        './../../public/assets/art/crane.JPG',   
+        './../../public/assets/art/horse.JPG',  
+        './../../public/assets/art/horses.JPG',  
+        './../../public/assets/art/oyster.JPG',  
+        './../../public/assets/art/penguins.JPG',  
+        './../../public/assets/art/shark.JPG',  
+        ]
 
     
     return (
@@ -19,18 +26,16 @@ const Art = () => {
                 <span className="section-title">/ my art!</span>
             </div>
             <Carousel>
-                {Object.keys(drawings).map((image, index) => (
-                    
+                {drawings.map((art, index) => (
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src={image.default}
+                            src={art}
                             alt={`Art ${index}`}
                         />
                         <div className="caption-bg">
                             <Carousel.Caption>
-                                <h3>sdsd</h3>
-                                console.log(image.default.split('/').pop().split('.')[0])
+                                <h3>{art.substring(art.lastIndexOf('/') + 1, art.lastIndexOf('.'))}</h3>
                             </Carousel.Caption>
                         </div>
                     </Carousel.Item>

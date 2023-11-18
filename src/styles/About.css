@@ -29,7 +29,7 @@
   
   .about-description li::before {
     content: "▹    ";
-    color: var(--green-bright);
+    color: var(--accent-bright);
     position: absolute;
     left: 0;
   }

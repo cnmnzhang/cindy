@@ -1,15 +1,15 @@
 :root {
-    --dark-gray: #ced4da;
-    --gray: #dee2e6;
-    --light-gray: #e9ecef;
-    --lightest-gray: #f8f9fa;
+    --dark-navy: #ced4da;
+    --navy: #dee2e6;
+    --light-navy: #e9ecef;
+    --lightest-navy: #f8f9fa;
     --gray-shadow: rgba(2, 12, 27, 0.7);
-    --darkgray: #212529;
-    --light-darkgray: #495057;
-    --lightest-darkgray: #6c757d;
+    --slate: #212529;
+    --light-slate: #495057;
+    --lightest-slate: #6c757d;
     --white: #e6f1ff;
-    --purple-bright: #7371FC;
-    --purple-tint: rgba(100, 255, 218, 0.1);
+    --accent-bright: #7371FC;
+    --accent-tint: rgba(100, 255, 218, 0.1);
     --sm-font-size: 22px;
     --medium-font-size: 32px;
     --large-font-size: 46px;
