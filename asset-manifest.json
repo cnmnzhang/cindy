@@ -1,21 +1,14 @@
 {
   "files": {
-    "main.css": "/cindy/static/css/main.4ea45a16.css",
-    "main.js": "/cindy/static/js/main.b5973bd2.js",
-    "static/media/shark.JPG": "/cindy/static/media/shark.8e439d725354998b016d.JPG",
-    "static/media/penguins.JPG": "/cindy/static/media/penguins.1e0a7b4e04a34aab1d15.JPG",
-    "static/media/horse.JPG": "/cindy/static/media/horse.a6e42009b988e7866623.JPG",
-    "static/media/horses.JPG": "/cindy/static/media/horses.ed5f009790b6a293dfe7.JPG",
-    "static/media/oyster.JPG": "/cindy/static/media/oyster.c58d34ac310d2cf31bbf.JPG",
-    "static/media/cherries.JPG": "/cindy/static/media/cherries.4e7c12bad3d0521b147a.JPG",
-    "static/media/crane.JPG": "/cindy/static/media/crane.c19bf664eaecd41e033b.JPG",
+    "main.css": "/cindy/static/css/main.0659a64a.css",
+    "main.js": "/cindy/static/js/main.53683147.js",
     "static/media/NTR-Regular.ttf": "/cindy/static/media/NTR-Regular.325a44bd3c015f909958.ttf",
     "index.html": "/cindy/index.html",
-    "main.4ea45a16.css.map": "/cindy/static/css/main.4ea45a16.css.map",
-    "main.b5973bd2.js.map": "/cindy/static/js/main.b5973bd2.js.map"
+    "main.0659a64a.css.map": "/cindy/static/css/main.0659a64a.css.map",
+    "main.53683147.js.map": "/cindy/static/js/main.53683147.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ea45a16.css",
-    "static/js/main.b5973bd2.js"
+    "static/css/main.0659a64a.css",
+    "static/js/main.53683147.js"
   ]
 }
