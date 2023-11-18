@@ -40,7 +40,7 @@
   }
   
   .about-description {
-    font-family: "NTR", sans-serif;
+    font-family: Georgia, serif;
     color: var(--slate);
     max-width: 800px;
     font-size: 22px;

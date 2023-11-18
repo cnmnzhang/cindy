@@ -78,14 +78,14 @@ html {
 }
 
 .section-title {
-  font-family: "NTR", sans-serif;
+  font-family: Georgia, serif;
   color: var(--lightest-slate);
   font-size: 46px;
   font-weight: bold;
 }
 
 .section-body {
-  font-family: "NTR", sans-serif;
+  font-family: Georgia, serif;
   color: var(--lightest-slate);
   font-size: var(--sm-font-size);
   font-weight: bold;

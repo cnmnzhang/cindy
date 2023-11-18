@@ -23,16 +23,16 @@ class Projects extends React.Component {
     });
   }
   render() {
-    <link rel="stylesheet" href="carousel.css"/>
+    <link rel="stylesheet" href="carousel.css" />
     const projects = {
-        "Data-Driven Modeling of Pulmonary Hypertension": {
-          title: "portfolio.js",
-          desc:
-            "Towards understanding the condition that is Pulmonary Hypertension. We applied unsupervised clustering to devise a new paradigm for pulmonary hypertension risk stratification, and we trained classifiers to predict pressure-volume states.",
-          techStack: "SCIKIT-LEARN, PANDAS, NUMPY, MATPLOTLIB, SEABORN",
-          link: "https://www.ahajournals.org/doi/full/10.1161/JAHA.119.016031",
-          image: "/assets/PCM.png"
-        },
+      "Data-Driven Modeling of Pulmonary Hypertension": {
+        title: "portfolio.js",
+        desc:
+          "Towards understanding the condition that is Pulmonary Hypertension. We applied unsupervised clustering to devise a new paradigm for pulmonary hypertension risk stratification, and we trained classifiers to predict pressure-volume states.",
+        techStack: "SCIKIT-LEARN, PANDAS, NUMPY, MATPLOTLIB, SEABORN",
+        link: "https://www.ahajournals.org/doi/full/10.1161/JAHA.119.016031",
+        image: "/assets/PCM.png"
+      },
       "Bonsai": {
         desc:
           "An application created for the students of Johns Hopkins University, a collection of student-driven communities for JHU courses",
@@ -80,7 +80,7 @@ class Projects extends React.Component {
             </Carousel.Item>
           ))}
         </Carousel> */}
-        
+
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (
@@ -89,36 +89,30 @@ class Projects extends React.Component {
                 // set css variable
                 root.style.setProperty('--my-color', 'blue')} */}
 
+
                 <li className="projects-card"
                 >
-                  <script>
-                    element.style.setProperty('--image-url', { projects[key]["image"] });
+                  <a href={projects[key]["open"]}>
+                    <script>
+                      element.style.setProperty('--image-url', {projects[key]["image"]});
                     </script>
 
-                  <div className="card-header">
-                    <div className="folder-icon">
-                      <FolderOpenRoundedIcon
-                        style={{ fontSize: 35 }}
-                      ></FolderOpenRoundedIcon>
-                    </div>
-                    <ExternalLinks
-                      githubLink={projects[key]["link"]}
-                      openLink={projects[key]["open"]}
-                    ></ExternalLinks>
-                  </div>
+                    <div className="card-header"></div>
+                    <div className="card-title">{key}</div>
+                    <div className="card-desc">{projects[key]["desc"]}</div>
+                    <div className="card-tech">{projects[key]["techStack"]}</div>
 
-                  <div className="card-title">{key}</div>
-                  <div className="card-desc">{projects[key]["desc"]}</div>
-                  <div className="card-tech">{projects[key]["techStack"]}</div>
+                  </a>
+
                 </li>
               </FadeInSection>
             ))}
           </ul>
         </div>
-        
+
       </div>
 
-      
+
     );
   }
 }
