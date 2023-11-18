@@ -1,12 +1,10 @@
 import React from "react";
 import "../styles/Projects.css";
-import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 // import GitHubIcon from "@material-ui/icons/GitHub";
 // import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 import FadeInSection from "./FadeInSection";
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import Carousel from "react-bootstrap/Carousel";
-import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
   constructor() {
@@ -29,7 +27,7 @@ class Projects extends React.Component {
         title: "portfolio.js",
         desc:
           "Towards understanding the condition that is Pulmonary Hypertension. We applied unsupervised clustering to devise a new paradigm for pulmonary hypertension risk stratification, and we trained classifiers to predict pressure-volume states.",
-        techStack: "SCIKIT-LEARN, PANDAS, NUMPY, MATPLOTLIB, SEABORN",
+        techStack: "SciKit Learn, Pandas, Numpy, Seaborn",
         link: "https://www.ahajournals.org/doi/full/10.1161/JAHA.119.016031",
         image: "/assets/PCM.png"
       },
@@ -97,7 +95,7 @@ class Projects extends React.Component {
                       element.style.setProperty('--image-url', {projects[key]["image"]});
                     </script>
 
-                    <div className="card-header"></div>
+                    {/* <div className="card-header"></div> */}
                     <div className="card-title">{key}</div>
                     <div className="card-desc">{projects[key]["desc"]}</div>
                     <div className="card-tech">{projects[key]["techStack"]}</div>
