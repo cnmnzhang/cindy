@@ -15,7 +15,7 @@
   
   .icon {
     color: var(--accent-bright);; /* Define neonaccent color in your global CSS or here */
-    font-size: large;
+    font-size: var(--medium-font-size);
     margin: 10px;
     cursor: pointer;
     margin-left: 10%;

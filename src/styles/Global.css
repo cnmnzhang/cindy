@@ -11,7 +11,8 @@
     --accent-bright: #7371FC;
     --accent-tint: rgba(100, 255, 218, 0.1);
     --sm-font-size: 22px;
-    --medium-font-size: 32px;
+    --sm-font-size: 22px;
+    --medium-font-size: 28px;
     --large-font-size: 46px;
-    --xl-font-size: 76px;
+    --xl-font-size: 72px;
   }

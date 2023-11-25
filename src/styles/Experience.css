@@ -2,6 +2,7 @@
     padding-left: 15%;
     padding-top: 10%;
     min-height: 30vh;
+    margin-top: 5%;
   }
   
   .joblist-job-title {
@@ -20,7 +21,7 @@
   
   .joblist-duration {
     font-family: Georgia, serif;
-    font-size: var(--medium-font-size);
+    font-size: var(--sm-font-size);
     color: var(--slate);
   }
   
@@ -73,7 +74,7 @@
     position: relative;
     padding-left: 30px;
     padding-bottom: 16px;
-    font-size: var(--sm-font-size);
+    font-size: var(--med-font-size);
     color: var(--slate);
   }
   
@@ -84,10 +85,6 @@
     font-size: var(--sm-font-size);
   }
   
-  .job-description {
-    font-size: var(--sm-font-size);
-    font-weight: bold;
-  }
   
   @media only screen and (max-width: 8px) {
     #experience {

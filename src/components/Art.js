@@ -10,10 +10,10 @@ const Art = () => {
     //   };
     // const drawings = importAll(require.context('./../../public/assets/art', false, /\.(png|jpe?g|JPG)$/));
 
-    const drawings = ['./../../public/assets/art/cherries.JPG',
-        './../../public/assets/art/crane.JPG',   
-        './../../public/assets/art/horse.JPG',  
-        './../../public/assets/art/horses.JPG',  
+    const drawings = ['public/assets/art/cherries.JPG',
+        'public/assets/art/crane.JPG',   
+        'public/assets/art/horse.JPG',  
+        'public/assets/art/horses.JPG',  
         './../../public/assets/art/oyster.JPG',  
         './../../public/assets/art/penguins.JPG',  
         './../../public/assets/art/shark.JPG',  

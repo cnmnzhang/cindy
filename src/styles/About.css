@@ -7,10 +7,8 @@
   
   #about {
     padding-left: 15%;
-    padding-right: 25%;
-    padding-top: 5%;
-    margin-top: 10%;
-    min-height: 60vh;
+    padding-right: 10%;
+    margin-top: 5%;
   }
   
   .about-description ul {
@@ -43,14 +41,9 @@
     font-family: Georgia, serif;
     color: var(--slate);
     max-width: 800px;
-    font-size: 22px;
+    font-size: var(--sm-font-size);
     text-align: justify;
     margin: 0;
-  }
-  
-  .about-description {
-    font-size: 21px;
-    font-weight: bold;
   }
   
   .about-image {
