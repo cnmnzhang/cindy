@@ -1,12 +1,13 @@
-import React, { useEffect, useRef } from 'react';
+// import React, { useEffect, useRef } from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import BookIcon from '@material-ui/icons/Book';
+import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import '../styles/SideMenu.css'; // Import the CSS file
 
 function SideMenu() {
 
-const menuRef = useRef(null);
+// const menuRef = useRef(null);
 
   // useEffect(() => {
   //   const setLineHeight = () => {
@@ -47,6 +48,10 @@ const menuRef = useRef(null);
         <a className="icon" href="https://www.goodreads.com/cindyzhang" target="_blank" rel="noreferrer">
           <BookIcon
           ></BookIcon>
+        </a>
+        <a className="icon" href="mailto:czhan117@jhu.edu" target="_blank" rel="noreferrer">
+          <EmailRoundedIcon
+          ></EmailRoundedIcon>
         </a>
       
     </div>

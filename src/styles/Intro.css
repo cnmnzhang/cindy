@@ -20,13 +20,13 @@
   
   .intro-title {
     font-family: Georgia, serif;
-    font-size: var(--large-font-size);
+    font-size: var(--xl-font-size);
   }
   .intro-name {
     font-family: Georgia, serif;
     color: var(--accent-bright);
     font-weight: bold;
-    font-size: var(--large-font-size);
+    font-size: var(--xl-font-size);
   }
   
   .intro-subtitle {

@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/Intro.css";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
-import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
+// import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import FadeInSection from "./FadeInSection";
 
 class Intro extends React.Component {
@@ -53,13 +53,13 @@ class Intro extends React.Component {
             interest in data science, machine learning, software engineering,
             and understanding how the world works.
           </div>
-          <a
+          {/* <a
             href="mailto:czhan117@jhu.edu"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>
             {"Say hi!"}
-          </a>
+          </a> */}
           <a href="#about">
             {/* <div className="down-arrow"></div> */}
           </a>

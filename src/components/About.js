@@ -20,7 +20,7 @@ class About extends React.Component {
     const one = (
       <p>
         I am  a <b>Senior Programmer Analyst</b> at Johns Hopkins, working on the Precision Medicine Data Management Team. 
-        I leverage Electronic Medical Record data for clinical research by supporting data extraction and transformation
+        I work with electronic health records and clinical data for clinical research by maintaining ETL pipelines, developing custom code, and improve architecture. 
       </p>
     );
     const two = (
@@ -31,12 +31,10 @@ class About extends React.Component {
     );
 
     const tech_stack = [
-      "Javascript ES6+",
-      "Python",
-      "React.js",
-      "Java",
-      "Node.js",
-      "HTML & CSS"
+      "Data Bricks",
+      "Azure Data Factory",
+      "SQL Server",
+      "Apache Spark",
     ];
 
     // const tech_items = tech_stack.map(stack => <li>{stack}</li>);

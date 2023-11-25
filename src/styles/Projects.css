@@ -1,6 +1,7 @@
 #projects {
-    padding-left: 15%;
-    padding-top: 10%;
+  padding-left: 15%;
+  padding-right: 10%;
+  margin-top: 5%;
     min-height: 30vh;
   }
 
@@ -64,7 +65,7 @@
   .card-title {
     font-family: Georgia, serif;
     color: var(--lightest-slate);
-    font-size: 24px;
+    font-size: var(--sm-font-size);
     font-weight: bold;
   }
   
