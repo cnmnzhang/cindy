@@ -17,25 +17,48 @@ class About extends React.Component {
     });
   }
   render() {
+
+    const activities = [
+      "following scientific developments and working on technical projects",
+      "spending time outdoors and enduring physical training",
+      "practicing Mandaring and familiarizing myself with Chinese culture",
+      "creating art and writing",
+      "and reading many books (as we all do)"
+    ];
+
     const one = (
+      <div>
       <p>
-        I am  a <b>Senior Programmer Analyst</b> at Johns Hopkins, working on the Precision Medicine Data Management Team. 
-        I work with electronic health records and clinical data for clinical research by maintaining ETL pipelines, developing custom code, and improve architecture. 
+        In the most human sense, I am a student of this world! I am inspired by our daily lives, and one of my greatest passions is understanding how the world works.
+        Conversely, I am inspired by the human ability, and I have a resolve to uncover all that I am capable of, and to push those boundaries through creation!
+        In pursuit of my passions of learning and creation, I spend my time:
       </p>
+
+<ul className="activities">
+{activities.map(function (activities_item, i) {
+  return (
+    <FadeInSection delay={`${i + 1}00ms`}>
+      <li>{activities_item}</li>
+    </FadeInSection>
+  );
+})}
+</ul>
+
+      </div>
     );
     const two = (
+      <div>
       <p>
-        Outside of work, I'm interested in following the developments of
-        science, technology, and art. 
+        The other 8 hours of the day, I am  a <b>Senior Programmer Analyst</b> at Johns Hopkins haha!
+        I am a part of the Precision Medicine team, and we support the Precision Medicine initiative which gathers clinical data for research. More on that in my experiences below.
       </p>
+      <p>
+        Currently located in Washington, DC, although my home is Minnesota! 
+      </p>
+
+      </div>
     );
 
-    const tech_stack = [
-      "Data Bricks",
-      "Azure Data Factory",
-      "SQL Server",
-      "Apache Spark",
-    ];
 
     // const tech_items = tech_stack.map(stack => <li>{stack}</li>);
 
@@ -48,16 +71,6 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-description">
               {[one]}
-              {"Here are some technologies I have been working with:"}
-              <ul className="tech-stack">
-                {tech_stack.map(function (tech_item, i) {
-                  return (
-                    <FadeInSection delay={`${i + 1}00ms`}>
-                      <li>{tech_item}</li>
-                    </FadeInSection>
-                  );
-                })}
-              </ul>
               {[two]}
             </div>
             <div className="about-image">

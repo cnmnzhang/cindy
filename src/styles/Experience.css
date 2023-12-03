@@ -7,14 +7,14 @@
   
   .joblist-job-title {
     font-family: Georgia, serif;
-    font-size: var(--medium-font-size);
+    font-size: var(--md-font-size);
     font-weight: bold;
     color: var(--lightest-slate);
   }
   
   .joblist-job-company {
     font-family: Georgia, serif;
-    font-size: var(--medium-font-size);
+    font-size: var(--md-font-size);
     color: var(--accent-bright);
     font-weight: bold;
   }
@@ -104,10 +104,10 @@
     }
   
     .joblist-job-title {
-      font-size: 22px;
+      font-size: var(--md-font-size);
     }
   
     .joblist-job-company {
-      font-size: 22px;
+      font-size: var(--md-font-size);
     }
   }

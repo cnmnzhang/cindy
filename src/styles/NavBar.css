@@ -20,7 +20,7 @@
     font-family: Georgia, serif;
     color: var(--accent-bright);
     font-weight: bold;
-    font-size: var(--large-font-size);
+    font-size: var(--lg-font-size);
   }
   
   /* Style the links */

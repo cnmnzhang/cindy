@@ -28,20 +28,15 @@ class Projects extends React.Component {
         desc:
           "Towards understanding the condition that is Pulmonary Hypertension. We applied unsupervised clustering to devise a new paradigm for pulmonary hypertension risk stratification, and we trained classifiers to predict pressure-volume states.",
         techStack: "SciKit Learn, Pandas, Numpy, Seaborn",
+        journal: "Journal of the American Heart Association",
         link: "https://www.ahajournals.org/doi/full/10.1161/JAHA.119.016031",
         image: "/assets/PCM.png"
-      },
-      "Bonsai": {
-        desc:
-          "An application created for the students of Johns Hopkins University, a collection of student-driven communities for JHU courses",
-        techStack: "MongoDB, Express.js, React.js, Node.js, TypeScript",
-        link: "hhttps://cs421sp22-homework.github.io/project-team-11-spontaneous-bonsai/",
-        image: "/assets/bonsai.png"
       },
       "Assessing Associations Between COVID-19 Symptomology and Adverse Outcomes": {
         desc:
           "Scripted an automated pipeline to crowdsource survey responses for a COVID-19 study. We evaluated and quantified the association between COVID-19 symptoms and chronic conditions. ",
         techStack: "Python, Qualtrics, Amazon Mechanical Turk",
+        journal: "JMIR Formative Research",
         link: "https://formative.jmir.org/2022/12/e37507",
         image: "/assets/Dendrogram for COVID-19 symptom clusters.png"
       },
@@ -50,7 +45,7 @@ class Projects extends React.Component {
     return (
       <div id="projects">
         <div className="section-header ">
-          <span className="section-title">/ projects</span>
+          <span className="section-title">/ projects & publications</span>
         </div>
         {/* <Carousel>
           {Object.keys(projects).map((key, i) => (
@@ -90,16 +85,17 @@ class Projects extends React.Component {
 
                 <li className="projects-card"
                 >
-                  <a href={projects[key]["open"]}>
-                    <script>
-                      element.style.setProperty('--image-url', {projects[key]["image"]});
-                    </script>
+                  <script>
+                    element.style.setProperty('--image-url', {projects[key]["image"]});
+                  </script>
 
-                    {/* <div className="card-header"></div> */}
-                    <div className="card-title">{key}</div>
-                    <div className="card-desc">{projects[key]["desc"]}</div>
-                    <div className="card-tech">{projects[key]["techStack"]}</div>
+                  {/* <div className="card-header"></div> */}
+                  <div className="card-title">{key}</div>
+                  <div className="card-desc">{projects[key]["desc"]}</div>
+                  <div className="card-tech">{projects[key]["techStack"]}</div>
 
+                  <a href={projects[key]["link"]} target="_blank" rel="noreferrer">
+                    <div className="card-journal">{projects[key]["journal"]}</div>
                   </a>
 
                 </li>
