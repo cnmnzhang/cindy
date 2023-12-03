@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cindy/static/css/main.d7fa938e.css",
-    "main.js": "/cindy/static/js/main.3ff75a50.js",
+    "main.css": "/cindy/static/css/main.394bd5a0.css",
+    "main.js": "/cindy/static/js/main.f4b69545.js",
     "static/media/NTR-Regular.ttf": "/cindy/static/media/NTR-Regular.325a44bd3c015f909958.ttf",
     "index.html": "/cindy/index.html",
-    "main.d7fa938e.css.map": "/cindy/static/css/main.d7fa938e.css.map",
-    "main.3ff75a50.js.map": "/cindy/static/js/main.3ff75a50.js.map"
+    "main.394bd5a0.css.map": "/cindy/static/css/main.394bd5a0.css.map",
+    "main.f4b69545.js.map": "/cindy/static/js/main.f4b69545.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7fa938e.css",
-    "static/js/main.3ff75a50.js"
+    "static/css/main.394bd5a0.css",
+    "static/js/main.f4b69545.js"
   ]
 }
