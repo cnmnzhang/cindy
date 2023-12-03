@@ -12,10 +12,9 @@
   }
   
   .about-description ul {
-    padding-top: 20px;
     list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(2, minmax(150px, 10px));
+    /* grid-template-columns: repeat(2, minmax(150px, 10px)); */
   }
   
   .about-description li {
@@ -40,7 +39,7 @@
   .about-description {
     font-family: Georgia, serif;
     color: var(--slate);
-    max-width: 800px;
+    max-width: 60%;
     font-size: var(--sm-font-size);
     text-align: justify;
     margin: 0;

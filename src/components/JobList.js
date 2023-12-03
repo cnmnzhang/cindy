@@ -82,6 +82,15 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
+    "Johns Hopkins Health System": {
+      jobTitle: "Senior Programmer Analyst @",
+      duration: "May 2023 - current!",
+      desc: [
+        "Create pipelines and custom solutions to deliver clinical data including EPIC, EHR, imaging, and waveform data using Azure and SQL to researchers",
+        "Monitor ETL processes and improve code, data platform architecture, and process design",
+        "Tech: Data Bricks, Azure Data Factory, SQL Server"
+      ]
+    },
     "Institute of Computational Medicine": {
       jobTitle: "Undergraduate Research Assistant @",
       duration: "JAN 2020 - JUN 2022",
@@ -99,6 +108,17 @@ const JobList = () => {
         "Refactored JAMA REST API methods and implemented an automated error logging strategy in Python",
         "Wrote and documented scripts to populate Airtable databases and replaced manual processes"
       ]
+    },
+    "Bonsai": {
+      jobTitle: "Team member @",
+      duration: "MAY 2022 - AUG 2022",
+      desc: [
+        "An application created for the students of Johns Hopkins University, a collection of student-driven communities for JHU courses",
+        "Designed application collaboratively, built react components, created API endpoints, refactored code",
+        "Tech: MongoDB, Express.js, React.js, Node.js, TypeScript, Figma, Heroku"
+      ],
+      link: "https://cs421sp22-homework.github.io/project-team-11-spontaneous-bonsai/",
+      image: "/assets/bonsai.png"
     },
     "JHU Applied Physics Laboratory": {
       jobTitle: "Software Development and Research Intern @",
