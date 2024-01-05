@@ -1,14 +1,14 @@
-#footer {
-    display: flex;
-    align-items: center;
-    padding-top: 100px;
-  }
-  
-  .ending-footer {
-    font-family: Georgia, serif;
-    color: var(--slate);
-    text-align: center;
-    width: 100%;
-    font-size: var(--sm-font-size);
-    padding-bottom: 5%;
-  }
+#Footer {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.ending-Footer {
+  font-family: "NTR", sans-serif;
+  color: var(--slate);
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  padding-bottom: 40px;
+}

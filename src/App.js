@@ -1,32 +1,27 @@
-import React from 'react'
-import "./App.css"
-import "./styles/Global.css"
-import Intro from './components/Intro'
-import About from './components/About'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
-import Footer from './components/Footer'
-import SideMenu from './components/SideMenu'
-import Art from './components/Art'
-// import NavBar from './components/NavBar'
+import React from "react";
+import Intro from "./components/Intro";
+import Experience from "./components/Experience";
+import About from "./components/About";
+import Projects from "./components/Projects";
+// import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+import "./App.css";
+import "./styles/Global.css";
+import "rsuite/dist/styles/rsuite-default.css";
 
-
-const App = () => {
+function App() {
   return (
-    <div className='App'>
+    <div className="App">
+      <NavBar></NavBar>
       <div id="content">
-        {/* <NavBar></NavBar> */}
-        <SideMenu></SideMenu>
         <Intro></Intro>
         <About></About>
         <Experience></Experience>
-        <Art></Art>
         <Projects></Projects>
-        <Footer></Footer>
-
+        {/* <Footer></Footer> */}
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

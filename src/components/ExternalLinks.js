@@ -22,13 +22,13 @@ class ExternalLinks extends React.Component {
         <a className="github-icon" href={this.props.githubLink}>
           <GitHubIcon
             style={{
-              fontSize: 25,
+              fontSize: 20,
               color: "var(--lightest-slate)"
             }}
           ></GitHubIcon>
         </a>
         {this.props.openLink && (
-          <a className="open-icon" href={this.props.openLink}>
+          <a className="open-icon" href={this.props.openLink} target="_blank">
             <OpenInBrowserIcon
               style={{
                 fontSize: 25,
