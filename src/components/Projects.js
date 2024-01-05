@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Projects.css";
-// import GitHubIcon from "@material-ui/icons/GitHub";
-// import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
+import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 import FadeInSection from "./FadeInSection";
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import Carousel from "react-bootstrap/Carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import Carousel from "react-bootstrap/Carousel";
+import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
   constructor() {
@@ -20,8 +20,14 @@ class Projects extends React.Component {
       activeKey: eventKey
     });
   }
+
+
   render() {
-    <link rel="stylesheet" href="carousel.css" />
+    const importAll = (r) => {
+        return r.keys().map(r);
+      };
+    const drawings = importAll(require.context('./../../public/assets/art', false, /\.(png|jpe?g|JPG)$/));
+
     const projects = {
       "Data-Driven Modeling of Pulmonary Hypertension": {
         title: "portfolio.js",
@@ -37,7 +43,7 @@ class Projects extends React.Component {
           "Scripted an automated pipeline to crowdsource survey responses for a COVID-19 study. We evaluated and quantified the association between COVID-19 symptoms and chronic conditions. ",
         techStack: "Python, Qualtrics, Amazon Mechanical Turk",
         journal: "JMIR Formative Research",
-        link: "https://formative.jmir.org/2022/12/e37507",
+        // link: "https://formative.jmir.org/2022/12/e37507",
         image: "/assets/Dendrogram for COVID-19 symptom clusters.png"
       },
     };
@@ -45,68 +51,50 @@ class Projects extends React.Component {
     return (
       <div id="projects">
         <div className="section-header ">
-          <span className="section-title">/ projects & publications</span>
+          <span className="section-title">/ projects</span>
         </div>
-        {/* <Carousel>
-          {Object.keys(projects).map((key, i) => (
+        <Carousel>
+          {Object.keys(drawings).map((key, i) => (
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={projects[key]["image"]}
+                src={drawings[i]}
                 alt={key}
               />
               <div className="caption-bg">
                 <Carousel.Caption>
-                  <h3>{projects[key]["title"]}</h3>
-                  <p>
-                    {projects[key]["desc"]}
-                    <p className="techStack">
-                      {projects[key]["techStack"]}
-                    </p>
-                  </p>
-                  <ExternalLinks
-                    githubLink={projects[key]["link"]}
-                    openLink={projects[key]["open"]}
-                  ></ExternalLinks>
+                  {/* <h3>what it is</h3> */}
                 </Carousel.Caption>
               </div>
             </Carousel.Item>
           ))}
-        </Carousel> */}
-
+        </Carousel>
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (
               <FadeInSection delay={`${i + 1}00ms`}>
-                {/* {const root = document.querySelector(':root');
-                // set css variable
-                root.style.setProperty('--my-color', 'blue')} */}
+                <li className="projects-card">
+                  <div className="card-header">
+                    <div className="folder-icon">
+                      <FolderOpenRoundedIcon
+                        style={{ fontSize: 35 }}
+                      ></FolderOpenRoundedIcon>
+                    </div>
+                    <ExternalLinks
+                      githubLink={projects[key]["link"]}
+                      openLink={projects[key]["link"]}
+                    ></ExternalLinks>
+                  </div>
 
-
-                <li className="projects-card"
-                >
-                  <script>
-                    element.style.setProperty('--image-url', {projects[key]["image"]});
-                  </script>
-
-                  {/* <div className="card-header"></div> */}
                   <div className="card-title">{key}</div>
                   <div className="card-desc">{projects[key]["desc"]}</div>
                   <div className="card-tech">{projects[key]["techStack"]}</div>
-
-                  <a href={projects[key]["link"]} target="_blank" rel="noreferrer">
-                    <div className="card-journal">{projects[key]["journal"]}</div>
-                  </a>
-
                 </li>
               </FadeInSection>
             ))}
           </ul>
         </div>
-
       </div>
-
-
     );
   }
 }
