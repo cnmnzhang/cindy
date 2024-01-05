@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/cindy/static/css/main.394bd5a0.css",
-    "main.js": "/cindy/static/js/main.f4b69545.js",
-    "static/media/NTR-Regular.ttf": "/cindy/static/media/NTR-Regular.325a44bd3c015f909958.ttf",
-    "index.html": "/cindy/index.html",
-    "main.394bd5a0.css.map": "/cindy/static/css/main.394bd5a0.css.map",
-    "main.f4b69545.js.map": "/cindy/static/js/main.f4b69545.js.map"
+    "main.css": "/static/css/main.f2ce5f11.css",
+    "main.js": "/static/js/main.353157d6.js",
+    "static/media/shark.JPG": "/static/media/shark.8e439d725354998b016d.JPG",
+    "static/media/penguins.JPG": "/static/media/penguins.1e0a7b4e04a34aab1d15.JPG",
+    "static/media/horse.JPG": "/static/media/horse.a6e42009b988e7866623.JPG",
+    "static/media/horses.JPG": "/static/media/horses.ed5f009790b6a293dfe7.JPG",
+    "static/media/oyster.JPG": "/static/media/oyster.c58d34ac310d2cf31bbf.JPG",
+    "static/media/cherries.JPG": "/static/media/cherries.4e7c12bad3d0521b147a.JPG",
+    "static/media/crane.JPG": "/static/media/crane.c19bf664eaecd41e033b.JPG",
+    "index.html": "/index.html",
+    "main.f2ce5f11.css.map": "/static/css/main.f2ce5f11.css.map",
+    "main.353157d6.js.map": "/static/js/main.353157d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.394bd5a0.css",
-    "static/js/main.f4b69545.js"
+    "static/css/main.f2ce5f11.css",
+    "static/js/main.353157d6.js"
   ]
 }
