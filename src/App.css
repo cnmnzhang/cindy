@@ -18,7 +18,7 @@ html {
 }
 
 .App {
-  font-family: "NTR";
+  font-family: "Georgia";
   background-color: var(--navy);
   display: flex;
   margin: auto;
