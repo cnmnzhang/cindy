@@ -23,7 +23,7 @@ class About extends React.Component {
       "spending time outdoors and enduring physical training",
       "practicing Mandaring and familiarizing myself with Chinese culture",
       "creating art and writing",
-      "reading !!!"
+      "reading books, listening to podcasts, and following my favorite blogs",
     ];
 
     const one = (
@@ -50,10 +50,8 @@ class About extends React.Component {
       <div>
       <p>
         The other 8 hours of the day, I am  a <b>Senior Programmer Analyst</b> at Johns Hopkins Hospital!
-        I am a part of the Precision Medicine team, and we support the Precision Medicine initiative which gathers clinical data for research. More on that in my experiences below.
-      </p>
-      <p>
-        My general career interests are in solving problems in healthcare and medicine using modern, state-of-the-art technology. I believe in improving the quality of life through precision medicine.
+        I am a part of the Data Management team, and we support the Precision Medicine initiative to deliver clinical data to researchers. Visit the experience section to learn more about my work! 
+        I develop my career by pursuing opportunities to solve interesting problems in healthcare and medicine using modern, state-of-the-art technology. I believe in improving the quality of life through precision medicine.
       </p>
       <p>
         Currently located in Washington, DC, and I grew up in Minnesota!
