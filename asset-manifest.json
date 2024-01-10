@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.deedbac6.css",
+    "main.js": "/static/js/main.4d87267b.js",
+    "static/media/shark.JPG": "/static/media/shark.8e439d725354998b016d.JPG",
+    "static/media/penguins.JPG": "/static/media/penguins.1e0a7b4e04a34aab1d15.JPG",
+    "static/media/horse.JPG": "/static/media/horse.a6e42009b988e7866623.JPG",
+    "static/media/horses.JPG": "/static/media/horses.ed5f009790b6a293dfe7.JPG",
+    "static/media/oyster.JPG": "/static/media/oyster.c58d34ac310d2cf31bbf.JPG",
+    "static/media/cherries.JPG": "/static/media/cherries.4e7c12bad3d0521b147a.JPG",
+    "static/media/crane.JPG": "/static/media/crane.c19bf664eaecd41e033b.JPG",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.deedbac6.css",
+    "static/js/main.4d87267b.js"
+  ]
+}
