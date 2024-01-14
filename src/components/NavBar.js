@@ -13,14 +13,14 @@ class NavBar extends React.Component {
     return (
       <Navbar fixed="top" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#">Cindy Zhang</Navbar.Brand>
+          {/* <Navbar.Brand href="#">Cindy Zhang</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#intro">Home</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#experience">Experience</Nav.Link>
-              <Nav.Link href="#projects">Projects</Nav.Link>
+              <Nav.Link href="#intro">intro</Nav.Link>
+              <Nav.Link href="#about">about</Nav.Link>
+              <Nav.Link href="#experience">experience</Nav.Link>
+              <Nav.Link href="#projects">projects</Nav.Link>
             </Nav>
             <Nav className="ml-auto">
               <Nav.Link href="mailto:czhan117@jh.edu">
