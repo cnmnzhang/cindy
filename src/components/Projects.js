@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Projects.css";
-import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
+// import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 import FadeInSection from "./FadeInSection";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "react-bootstrap/Carousel";
-import ExternalLinks from "./ExternalLinks";
+// import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
   constructor() {
@@ -30,7 +30,7 @@ class Projects extends React.Component {
 
     const projects = {
       "Data-Driven Modeling of Pulmonary Hypertension": {
-        title: "portfolio.js",
+        title: "Data-Driven Modeling of Pulmonary Hypertension",
         desc:
           "Towards understanding the condition that is Pulmonary Hypertension. We applied unsupervised clustering to devise a new paradigm for pulmonary hypertension risk stratification, and we trained classifiers to predict pressure-volume states.",
         techStack: "SciKit Learn, Pandas, Numpy, Seaborn",
@@ -46,6 +46,12 @@ class Projects extends React.Component {
         // link: "https://formative.jmir.org/2022/12/e37507",
         image: "/assets/Dendrogram for COVID-19 symptom clusters.png"
       },
+        "Learning about Stock Market Trends": {
+          desc:
+            "Exploration into stocks, trading algorithms, and libraries for modeling and predicting trends",
+          techStack: "Facebook Prophet, XGBoost, Streamlit",
+          link: "https://cnmnzhang.streamlit.app/"
+      }
     };
 
     return (
@@ -74,19 +80,21 @@ class Projects extends React.Component {
             {Object.keys(projects).map((key, i) => (
               <FadeInSection delay={`${i + 1}00ms`}>
                 <li className="projects-card">
-                  <div className="card-header">
+                  {/* <div className="card-header">
                     <div className="folder-icon">
                       <FolderOpenRoundedIcon
                         style={{ fontSize: 35 }}
                       ></FolderOpenRoundedIcon>
                     </div>
                     <ExternalLinks
-                      githubLink={projects[key]["link"]}
+                      githubLink={projects[key]["github_link"]}
                       openLink={projects[key]["link"]}
                     ></ExternalLinks>
-                  </div>
+                  </div> */}
 
-                  <div className="card-title">{key}</div>
+                  <div className="card-title">
+                    <a href={projects[key]["link"]} target="_blank" rel="noopener">{key}</a>
+                    </div>
                   <div className="card-desc">{projects[key]["desc"]}</div>
                   <div className="card-tech">{projects[key]["techStack"]}</div>
                 </li>
