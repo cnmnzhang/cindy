@@ -21,9 +21,9 @@ class About extends React.Component {
     const activities = [
       "following scientific developments and working on technical projects",
       "spending time outdoors and enduring physical training",
-      "practicing Mandaring and familiarizing myself with Chinese culture",
+      "practicing Mandarin and familiarizing myself with Chinese culture",
       "creating art and writing",
-      "reading books, listening to podcasts, and following my favorite blogs",
+      "reading books and listening to podcasts",
     ];
 
     const one = (

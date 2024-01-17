@@ -36,7 +36,7 @@ class Intro extends React.Component {
             
           </div>
           <a
-            href="mailto:czhan117@jhu.edu"
+            href="mailto:cnmnzhang@gmail.com"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>
