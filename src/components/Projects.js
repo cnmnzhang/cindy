@@ -35,7 +35,7 @@ class Projects extends React.Component {
           "Towards understanding the condition that is Pulmonary Hypertension. We applied unsupervised clustering to devise a new paradigm for pulmonary hypertension risk stratification, and we trained classifiers to predict pressure-volume states.",
         techStack: "SciKit Learn, Pandas, Numpy, Seaborn",
         journal: "Journal of the American Heart Association",
-        link: "https://www.ahajournals.org/doi/full/10.1161/JAHA.119.016031",
+        // link: "https://www.ahajournals.org/doi/full/10.1161/JAHA.119.016031",
         image: "/assets/PCM.png"
       },
       "Assessing Associations Between COVID-19 Symptomology and Adverse Outcomes": {
@@ -43,7 +43,7 @@ class Projects extends React.Component {
           "Scripted an automated pipeline to crowdsource survey responses for a COVID-19 study. We evaluated and quantified the association between COVID-19 symptoms and chronic conditions. ",
         techStack: "Python, Qualtrics, Amazon Mechanical Turk",
         journal: "JMIR Formative Research",
-        // link: "https://formative.jmir.org/2022/12/e37507",
+        link: "https://formative.jmir.org/2022/12/e37507",
         image: "/assets/Dendrogram for COVID-19 symptom clusters.png"
       },
         "Learning about Stock Market Trends": {
@@ -59,22 +59,6 @@ class Projects extends React.Component {
         <div className="section-header ">
           <span className="section-title">/ projects</span>
         </div>
-        <Carousel>
-          {Object.keys(drawings).map((key, i) => (
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={drawings[i]}
-                alt={key}
-              />
-              <div className="caption-bg">
-                <Carousel.Caption>
-                  {/* <h3>what it is</h3> */}
-                </Carousel.Caption>
-              </div>
-            </Carousel.Item>
-          ))}
-        </Carousel>
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (
@@ -102,6 +86,23 @@ class Projects extends React.Component {
             ))}
           </ul>
         </div>
+
+        <Carousel>
+          {Object.keys(drawings).map((key, i) => (
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={drawings[i]}
+                alt={key}
+              />
+              <div className="caption-bg">
+                <Carousel.Caption>
+                  {/* <h3>what it is</h3> */}
+                </Carousel.Caption>
+              </div>
+            </Carousel.Item>
+          ))}
+        </Carousel>
       </div>
     );
   }
