@@ -7,13 +7,13 @@ class Footer extends React.Component {
     super();
     this.state = {
       expanded: true,
-      activeKey: "1"
+      activeKey: "1",
     };
     this.handleSelect = this.handleSelect.bind(this);
   }
   handleSelect(eventKey) {
     this.setState({
-      activeKey: eventKey
+      activeKey: eventKey,
     });
   }
   render() {
@@ -22,7 +22,16 @@ class Footer extends React.Component {
         <div id="footer">
           <div className="ending-footer">
             <div>Built and designed by Cindy Zhang. </div>
-            <div>Footer to <a href="https://brittanychiang.com/" target="_blank" rel="noreferrer">Brittang Chiang</a></div>
+            <div>
+              Footer to{" "}
+              <a
+                href="https://brittanychiang.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Brittang Chiang
+              </a>
+            </div>
           </div>
         </div>
       </FadeInSection>

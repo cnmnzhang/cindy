@@ -11,8 +11,5 @@
     "static/media/crane.JPG": "/static/media/crane.c19bf664eaecd41e033b.JPG",
     "index.html": "/index.html"
   },
-  "entrypoints": [
-    "static/css/main.deedbac6.css",
-    "static/js/main.4d87267b.js"
-  ]
+  "entrypoints": ["static/css/main.deedbac6.css", "static/js/main.4d87267b.js"]
 }

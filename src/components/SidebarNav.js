@@ -15,13 +15,13 @@ class SidebarNav extends React.Component {
     super();
     this.state = {
       expanded: true,
-      activeKey: "1"
+      activeKey: "1",
     };
     this.handleSelect = this.handleSelect.bind(this);
   }
   handleSelect(eventKey) {
     this.setState({
-      activeKey: eventKey
+      activeKey: eventKey,
     });
   }
   render() {
@@ -31,7 +31,7 @@ class SidebarNav extends React.Component {
       <a href="#intro">/home</a>,
       <a href="#about">/about</a>,
       <a href="#experience">/experience</a>,
-      <a href="#projects">/software-creations</a>
+      <a href="#projects">/software-creations</a>,
     ];
 
     return (

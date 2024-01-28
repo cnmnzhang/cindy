@@ -100,7 +100,7 @@ class ThreeJSAnimation extends Component {
     }
   }
   render() {
-    return <div ref={ref => (this.mount = ref)} />;
+    return <div ref={(ref) => (this.mount = ref)} />;
   }
 }
 export default ThreeJSAnimation;

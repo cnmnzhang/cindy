@@ -49,32 +49,32 @@ function TabPanel(props) {
 TabPanel.propTypes = {
   children: PropTypes.node,
   index: PropTypes.any.isRequired,
-  value: PropTypes.any.isRequired
+  value: PropTypes.any.isRequired,
 };
 
 function a11yProps(index) {
   if (isHorizontal) {
     return {
       id: `full-width-tab-${index}`,
-      "aria-controls": `full-width-tabpanel-${index}`
+      "aria-controls": `full-width-tabpanel-${index}`,
     };
   } else {
     return {
-      id: `vertical-tab-${index}`
+      id: `vertical-tab-${index}`,
     };
   }
 }
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     backgroundColor: "theme.palette.background.paper",
     display: "flex",
-    height: 400
+    height: 400,
   },
   tabs: {
-    borderRight: `1px solid ${theme.palette.divider}`
-  }
+    borderRight: `1px solid ${theme.palette.divider}`,
+  },
 }));
 
 const JobList = () => {
@@ -88,8 +88,8 @@ const JobList = () => {
       desc: [
         "Create pipelines and custom solutions to deliver clinical data including EPIC, EHR, imaging, and waveform data using Azure and SQL to researchers",
         "Monitor ETL processes and improve code, data platform architecture, and process design",
-        "Tech: Data Bricks, Azure Data Factory, SQL Server"
-      ]
+        "Tech: Data Bricks, Azure Data Factory, SQL Server",
+      ],
     },
     "Institute of Computational Medicine": {
       jobTitle: "Undergraduate Research Assistant @",
@@ -98,7 +98,7 @@ const JobList = () => {
         "Created a multilevel classification model to predict patient portal utilization from patient MyChart data",
         "Automated a Python pipeline to crowdsource and analyze Qualtrics survey responses for a COVID-19 study hosted on Amazon Mechanical Turk",
         "Scripted electronic health record format converter for HL7 and Eventflow formats",
-      ]
+      ],
     },
     "Johnson & Johnson": {
       jobTitle: "Systems Engineering Intern @",
@@ -106,37 +106,37 @@ const JobList = () => {
       desc: [
         "Executed C++ tests in Linux to characterize a robotic surgery system and gather requirements values",
         "Refactored JAMA REST API methods and implemented an automated error logging strategy in Python",
-        "Wrote and documented scripts to populate Airtable databases and replaced manual processes"
-      ]
+        "Wrote and documented scripts to populate Airtable databases and replaced manual processes",
+      ],
     },
-    "Bonsai": {
+    Bonsai: {
       jobTitle: "Team member @",
       duration: "MAY 2022 - AUG 2022",
       desc: [
         "An application created for the students of Johns Hopkins University, a collection of student-driven communities for JHU courses",
         "Designed application collaboratively, built react components, created API endpoints, refactored code",
-        "Tech: MongoDB, Express.js, React.js, Node.js, TypeScript, Figma, Heroku"
+        "Tech: MongoDB, Express.js, React.js, Node.js, TypeScript, Figma, Heroku",
       ],
       link: "https://cs421sp22-homework.github.io/project-team-11-spontaneous-bonsai/",
-      image: "/assets/bonsai.png"
+      image: "/assets/bonsai.png",
     },
     "JHU Applied Physics Laboratory": {
       jobTitle: "Software Development and Research Intern @",
       duration: "NOV 2021 - MAY 2022",
       desc: [
         "Developed a MERN stack journaling and message board web application with sentiment analysis of entries, emotion tracking, and user authentication and authorization functionality",
-        "Conceptualized and contributed code to neuron connectomics gamification project to support player movement and background generation of large-scale neuron meshes from an API using C# in Unity"
-      ]
+        "Conceptualized and contributed code to neuron connectomics gamification project to support player movement and background generation of large-scale neuron meshes from an API using C# in Unity",
+      ],
     },
-    "Delineo": {
+    Delineo: {
       jobTitle: "Software Developer and Agile Product Owner @",
       duration: "MAY 2019 - AUG 2019",
       desc: [
         "Implemented features of a scalable Wells-Riley model to simulate spread of diseases and fixed bugs",
         "Managed a team, lead meetings, and delegated tasks on a two-week sprint-based schedule",
-        "Improved simulation efficiency by decreasing time taken to simulate 6 months of infection by 59%"
-      ]
-    }
+        "Improved simulation efficiency by decreasing time taken to simulate 6 months of infection by 59%",
+      ],
+    },
   };
 
   const handleChange = (event, newValue) => {

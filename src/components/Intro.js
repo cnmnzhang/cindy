@@ -31,14 +31,11 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">engineer, artist, and life long learner</div>
-          <div className="intro-desc">
-            
+          <div className="intro-subtitle">
+            engineer, artist, and life long learner
           </div>
-          <a
-            href="mailto:cnmnzhang@gmail.com"
-            className="intro-contact"
-          >
+          <div className="intro-desc"></div>
+          <a href="mailto:cnmnzhang@gmail.com" className="intro-contact">
             <EmailRoundedIcon></EmailRoundedIcon>
             {" Say hi!"}
           </a>

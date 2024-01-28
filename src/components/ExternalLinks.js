@@ -7,13 +7,13 @@ class ExternalLinks extends React.Component {
     super();
     this.state = {
       expanded: true,
-      activeKey: "1"
+      activeKey: "1",
     };
     this.handleSelect = this.handleSelect.bind(this);
   }
   handleSelect(eventKey) {
     this.setState({
-      activeKey: eventKey
+      activeKey: eventKey,
     });
   }
   render() {
@@ -23,16 +23,21 @@ class ExternalLinks extends React.Component {
           <GitHubIcon
             style={{
               fontSize: 20,
-              color: "var(--lightest-slate)"
+              color: "var(--lightest-slate)",
             }}
           ></GitHubIcon>
         </a>
         {this.props.openLink && (
-          <a className="open-icon" href={this.props.openLink} target="_blank" rel="noreferrer">
+          <a
+            className="open-icon"
+            href={this.props.openLink}
+            target="_blank"
+            rel="noreferrer"
+          >
             <OpenInBrowserIcon
               style={{
                 fontSize: 25,
-                color: "var(--lightest-slate)"
+                color: "var(--lightest-slate)",
               }}
             ></OpenInBrowserIcon>
           </a>
