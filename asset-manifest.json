@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.deedbac6.css",
-    "main.js": "/static/js/main.4d87267b.js",
+    "main.css": "/static/css/main.651e4409.css",
+    "main.js": "/static/js/main.34e5d9b5.js",
     "static/media/shark.JPG": "/static/media/shark.8e439d725354998b016d.JPG",
     "static/media/penguins.JPG": "/static/media/penguins.1e0a7b4e04a34aab1d15.JPG",
     "static/media/horse.JPG": "/static/media/horse.a6e42009b988e7866623.JPG",
@@ -12,7 +12,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.deedbac6.css",
-    "static/js/main.4d87267b.js"
+    "static/css/main.651e4409.css",
+    "static/js/main.34e5d9b5.js"
   ]
 }
