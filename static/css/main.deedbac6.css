@@ -30,7 +30,7 @@ code {
 }
 .intro-name,
 .intro-title {
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 86px;
 }
 .intro-name {
@@ -45,7 +45,7 @@ code {
 .intro-desc,
 .intro-subtitle {
   color: var(--slate);
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   text-align: center;
 }
 .intro-desc {
@@ -58,7 +58,7 @@ code {
   border: 1px solid var(--green-bright);
   border-radius: 4px;
   cursor: pointer;
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 22px;
   font-weight: bolder;
   padding: 10px 30px;
@@ -127,7 +127,7 @@ b {
 }
 .joblist-job-company,
 .joblist-job-title {
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 28px;
   font-weight: 700;
 }
@@ -136,7 +136,7 @@ b {
 }
 .joblist-duration {
   color: var(--slate);
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 18px;
 }
 #vertical-tabpanel {
@@ -145,7 +145,7 @@ b {
 }
 .MuiTab-wrapper {
   align-items: flex-start !important;
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 16px;
   text-align: left;
 }
@@ -184,7 +184,7 @@ ul {
   position: relative;
 }
 .job-description {
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 20px;
   max-width: 650px;
   padding-top: 24px;
@@ -241,7 +241,7 @@ ul {
 }
 .about-description {
   color: var(--slate);
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 22px;
   margin: 0;
   max-width: 600px;
@@ -346,7 +346,7 @@ ul {
 }
 .card-title {
   color: var(--lightest-slate);
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
@@ -357,7 +357,7 @@ ul {
 .card-desc,
 .card-tech {
   color: var(--slate);
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
 }
 .card-tech {
   font-size: 16px;
@@ -381,7 +381,7 @@ ul {
   opacity: 0.8;
 }
 .carousel-caption {
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   left: 25% !important;
   max-width: 500px;
   right: auto !important;
@@ -397,12 +397,12 @@ ul {
   font-weight: 700;
 }
 .carousel-caption p {
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 18px;
 }
 .carousel-caption p.techStack {
   color: var(--green-bright);
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 14px;
   font-weight: 700;
 }
@@ -648,7 +648,7 @@ ul {
 .navbar {
   background-color: var(--navy);
   color: var(--lightest-slate);
-  font-family: Georgia;
+  font-family: NTR;
   font-weight: 700;
 }
 .navbar-light .navbar-brand,
@@ -731,7 +731,7 @@ a {
 }
 .section-title {
   color: var(--lightest-slate);
-  font-family: Georgia, sans-serif;
+  font-family: NTR, sans-serif;
   font-size: 46px;
   font-weight: 700;
 }
