@@ -35,6 +35,7 @@
 }
 
 .card-header {
+  background-color: var(--light-navy);
   margin-top: -20px;
   display: flex;
   padding: 1.25em 0 !important;
@@ -95,8 +96,12 @@
 }
 
 .carousel img {
-  object-fit: contain;
-  height: 100%;
+  object-fit: fill;
+  max-height: 500px;
+  max-width: 100%; /* Ensures the image does not exceed the width of its container */
+  height: auto; /* Allows the image to adjust its height dynamically */
+  width: auto; /* Allows the image to adjust its width dynamically */
+
   opacity: 0.8;
 }
 

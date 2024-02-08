@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Projects.css";
-// import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
+import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 import FadeInSection from "./FadeInSection";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "react-bootstrap/Carousel";
-// import ExternalLinks from "./ExternalLinks";
+import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
   constructor() {
@@ -49,7 +49,7 @@ class Projects extends React.Component {
       "Learning about Stock Market Trends": {
         desc: "Exploration into stocks, trading algorithms, and libraries for modeling and predicting trends",
         techStack: "Facebook Prophet, XGBoost, Streamlit",
-        link: "https://cnmnzhang.streamlit.app/",
+        link: "https://cindyzhang.streamlit.app/",
       },
     };
 
@@ -70,7 +70,7 @@ class Projects extends React.Component {
                       ></FolderOpenRoundedIcon>
                     </div>
                     <ExternalLinks
-                      githubLink={projects[key]["github_link"]}
+                      // githubLink={projects[key]["github_link"]}
                       openLink={projects[key]["link"]}
                     ></ExternalLinks>
                   </div> */}
@@ -79,7 +79,7 @@ class Projects extends React.Component {
                     <a
                       href={projects[key]["link"]}
                       target="_blank"
-                      rel="noopener"
+                      rel="noreferrer"
                     >
                       {key}
                     </a>
@@ -97,7 +97,11 @@ class Projects extends React.Component {
             <Carousel.Item>
               <img className="d-block w-100" src={drawings[i]} alt={key} />
               <div className="caption-bg">
-                <Carousel.Caption>{/* <h3>what it is</h3> */}</Carousel.Caption>
+                
+                <Carousel.Caption>
+                  {/* <h3>{i.split('/').pop().split('.')[0]}</h3> */}
+                  <h3>{i}</h3>
+                  </Carousel.Caption>
               </div>
             </Carousel.Item>
           ))}
