@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Projects.css";
-import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 import FadeInSection from "./FadeInSection";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "react-bootstrap/Carousel";
-import ExternalLinks from "./ExternalLinks";
+// import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
+// import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
   constructor() {
@@ -99,8 +99,7 @@ class Projects extends React.Component {
               <div className="caption-bg">
                 
                 <Carousel.Caption>
-                  {/* <h3>{i.split('/').pop().split('.')[0]}</h3> */}
-                  <h3>{i}</h3>
+                  <h3>{drawings[i].split('/').pop().split('.')[0]}</h3>
                   </Carousel.Caption>
               </div>
             </Carousel.Item>

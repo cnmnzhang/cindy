@@ -18,22 +18,20 @@ class About extends React.Component {
   }
   render() {
     const activities = [
-      "following scientific developments and working on technical projects",
-      "spending time outdoors and enduring physical training",
-      "practicing Mandarin and familiarizing myself with Chinese culture",
-      "creating art and writing",
-      "reading books and listening to podcasts",
+      "biology, AI/ML, precision medicine, longevity",
+      "being outdoors, movement, physical training, deep breaths",
+      "Chinese culture, practicing Mandarin, and learning about other cultures",
+      "creating art and writing, as well as participating in active discussions",
+      "books, blogs, and podcasts (Huberman Lab, Peter Attia, 聊聊东西.)",
     ];
 
     const one = (
       <div>
         <p>
-          I am a student of this world and receive inspiration from our daily
-          lives. One of my greatest passions is understanding how the world
+          I am a complete student of this world with a passions is understanding how the world
           works. Furthermore, I am inspired by the human ability, and I have a
           resolve to uncover all that I am capable of, and to push those
-          boundaries through creation! In pursuit of my passions of learning and
-          creation, I spend my time:
+          boundaries through creation! My enjoyments consist of:
         </p>
 
         <ul className="activities">
@@ -49,17 +47,7 @@ class About extends React.Component {
     );
     const two = (
       <div>
-        <p>
-          The other 8 hours of the day, I am a <b>Senior Programmer Analyst</b>{" "}
-          at Johns Hopkins Hospital! I am a part of the Data Management team,
-          and we support the Precision Medicine initiative to deliver clinical
-          data to researchers. Visit the experience section to learn more about
-          my work! I develop my career by pursuing opportunities to solve
-          interesting problems in healthcare and medicine using modern,
-          state-of-the-art technology. I believe in improving the quality of
-          life through precision medicine.
-        </p>
-        <p>Currently located in Washington, DC, and I grew up in Minnesota!</p>
+        <p>Located in Washington, DC. From Minnesota!</p>
       </div>
     );
 
@@ -77,7 +65,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img src={"/assets/cindy.JPG"} alt="cindy" />
+              <img src={"./assets/cindy.JPG"} alt="cindy" />
             </div>
           </div>
         </FadeInSection>
